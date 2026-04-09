@@ -1,9 +1,9 @@
 Backend API con Autenticación JWT
 
-Este proyecto corresponde a una API desarrollada con Node.js, Express, Prisma y SQLite.
+API backend desarrollada con Node.js, Express, Prisma y SQLite.
 
 Funcionalidades
-Login con email y contraseña
+Registro y login de usuarios
 Generación de tokens JWT
 Middleware de autenticación
 Protección de rutas
@@ -13,4 +13,4 @@ Node.js
 Express
 Prisma
 SQLite
-JWT
+JSON Web Token (JWT)
