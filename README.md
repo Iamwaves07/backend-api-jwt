@@ -1,6 +1,8 @@
-# Backend API con Autenticación JWT 🔐
+# Sistema Fullstack con Autenticación JWT 🔐
 
-API backend desarrollada como proyecto personal para implementar autenticación segura y estructura base de una aplicación escalable.
+Proyecto fullstack desarrollado para implementar autenticación segura y una arquitectura base escalable con separación entre backend y frontend.
+
+---
 
 ## 🚀 Características
 
@@ -9,16 +11,28 @@ API backend desarrollada como proyecto personal para implementar autenticación 
 - Middleware de protección de rutas
 - Validación de datos
 - Sistema preparado para multi-tenant (usuarios con roles y tenantId)
+- Frontend en React conectado a API
 - Pruebas del flujo completo de autenticación
+
+---
 
 ## 🛠️ Tecnologías utilizadas
 
+### Backend
 - Node.js
 - Express
 - Prisma ORM
 - SQLite
 - JSON Web Token (JWT)
 - Zod (validación)
+
+### Frontend
+- React
+- Vite
+- JavaScript (ES6+)
+- Fetch API
+
+---
 
 ## 🔐 Seguridad implementada
 
@@ -27,13 +41,40 @@ API backend desarrollada como proyecto personal para implementar autenticación 
 - Headers de seguridad con Helmet
 - Configuración de CORS restringida
 
+---
+
 ## 📌 Endpoints principales
 
 - `POST /auth/login` → autenticación de usuario
 - `GET /auth/me` → obtener información del usuario autenticado
 
+---
+
+## 🖥️ Estructura del proyecto
+proyecto-empresa/
+├── backend/
+└── frontend/
+
+---
+
 ## ⚙️ Cómo ejecutar el proyecto
 
+### Backend
+
 ```bash
+cd backend
 npm install
 node src/server.js
+
+
+cd frontend
+npm install
+npm run dev
+
+📚 Objetivo del proyecto
+
+Este proyecto fue desarrollado como base para:
+
+Sistemas de gestión
+Aplicaciones multiempresa
+Arquitecturas fullstack modernas
