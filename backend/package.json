@@ -1,0 +1,38 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Sistema Multiempresa",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/server.js",
+    "test:health": "powershell -ExecutionPolicy Bypass -File .\\scripts\\test-health.ps1",
+    "test:login": "powershell -ExecutionPolicy Bypass -File .\\scripts\\test-login.ps1",
+    "test:me": "powershell -ExecutionPolicy Bypass -File .\\scripts\\test-me.ps1",
+    "test:auth": "powershell -ExecutionPolicy Bypass -File .\\scripts\\test-auth.ps1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/adapter-better-sqlite3": "^7.2.0",
+    "@prisma/client": "^7.2.0",
+    "bcryptjs": "^3.0.3",
+    "better-sqlite3": "^12.6.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.3.2",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.3",
+    "zod": "^4.3.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11",
+    "prisma": "^7.2.0"
+  },
+  "prisma": {
+    "seed": "node prisma/seed.js"
+  }
+}

@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #0f172a, #1e293b, #334155);
+  min-height: 100vh;
+}
+
+.page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+.card {
+  width: 100%;
+  max-width: 420px;
+  background: white;
+  border-radius: 20px;
+  padding: 32px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.25);
+}
+
+h1 {
+  margin: 0 0 8px;
+  font-size: 2rem;
+  color: #0f172a;
+  text-align: center;
+}
+
+.subtitle {
+  margin: 0 0 24px;
+  text-align: center;
+  color: #475569;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+label {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #1e293b;
+}
+
+input {
+  padding: 14px 16px;
+  border: 1px solid #cbd5e1;
+  border-radius: 12px;
+  font-size: 1rem;
+  outline: none;
+  transition: 0.2s ease;
+}
+
+input:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+}
+
+.btn {
+  margin-top: 10px;
+  padding: 14px 16px;
+  border: none;
+  border-radius: 12px;
+  background: #2563eb;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.btn:hover {
+  background: #1d4ed8;
+}
+
+.btn:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.logout-btn {
+  width: 100%;
+  margin-top: 20px;
+  background: #dc2626;
+}
+
+.logout-btn:hover {
+  background: #b91c1c;
+}
+
+.error {
+  margin: 4px 0 0;
+  color: #dc2626;
+  font-size: 0.95rem;
+}
+
+.user-box {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 14px;
+  padding: 16px;
+  margin-top: 20px;
+}
+
+.user-box p {
+  margin: 8px 0;
+  color: #1e293b;
+}
