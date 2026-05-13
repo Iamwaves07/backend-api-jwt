@@ -1,10 +1,10 @@
-# Sistema Fullstack con Autenticación JWT 🔐
+# Sistema Fullstack con Autenticación JWT 
 
 Proyecto fullstack desarrollado para implementar autenticación segura y una arquitectura base escalable con separación entre backend y frontend.
 
 ---
 
-## 🚀 Características
+##  Características
 
 - Registro y login de usuarios
 - Autenticación basada en JWT (stateless)
@@ -16,7 +16,7 @@ Proyecto fullstack desarrollado para implementar autenticación segura y una arq
 
 ---
 
-## 🛠️ Tecnologías utilizadas
+##  Tecnologías utilizadas
 
 ### Backend
 - Node.js
@@ -34,7 +34,7 @@ Proyecto fullstack desarrollado para implementar autenticación segura y una arq
 
 ---
 
-## 🔐 Seguridad implementada
+##  Seguridad implementada
 
 - Hash de contraseñas con bcrypt
 - Rate limiting en endpoint de login
@@ -43,14 +43,14 @@ Proyecto fullstack desarrollado para implementar autenticación segura y una arq
 
 ---
 
-## 📌 Endpoints principales
+##  Endpoints principales
 
 - `POST /auth/login` → autenticación de usuario
 - `GET /auth/me` → obtener información del usuario autenticado
 
 ---
 
-## 🖥️ Estructura del proyecto
+##  Estructura del proyecto
 proyecto-empresa/
 ├── backend/
 └── frontend/
@@ -71,7 +71,7 @@ cd frontend
 npm install
 npm run dev
 
-📚 Objetivo del proyecto
+ Objetivo del proyecto
 
 Este proyecto fue desarrollado como base para:
 
